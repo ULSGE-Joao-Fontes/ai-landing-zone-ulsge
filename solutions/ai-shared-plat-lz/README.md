@@ -30,11 +30,11 @@ azd auth login --tenant-id 71834302-da70-4741-ba0b-c3b9404e38a6
 
 # Initialize environment and give it a name (e.g. ai-hub-citadel-dev-01)
 #azd env new <your-environment-name>
-azd env new ai-hub-dev-01
+azd env new ai-landing-zone
 
 # Copy the .env file to your environment and customize it with your values
 #cp ../config/.env.template .azure/<your-environment-name>/.env
-cp ../config/.env.template .azure/ai-hub-dev-01/.env
+cp ../config/.env.template .azure/ai-landing-zone/.env
 
 # You can check your environment
 azd env get-values
