@@ -18,7 +18,7 @@
         <include-fragment fragment-id="validate-model-access" />
 
         <!-- Capacity management - Subscription Level: allow only assigned tpm for each HR use case subscription -->
-        <llm-token-limit counter-key="@(context.Subscription.Id)" tokens-per-minute="500000" estimate-prompt-tokens="false" token-quota="50000000" token-quota-period="Monthly" />
+        <llm-token-limit counter-key="@(context.Subscription.Id)" tokens-per-minute="510000" estimate-prompt-tokens="false" token-quota="50000000" token-quota-period="Monthly" />
     </inbound>
     <!-- Control if and how the requests are forwarded to services  -->
     <backend>
