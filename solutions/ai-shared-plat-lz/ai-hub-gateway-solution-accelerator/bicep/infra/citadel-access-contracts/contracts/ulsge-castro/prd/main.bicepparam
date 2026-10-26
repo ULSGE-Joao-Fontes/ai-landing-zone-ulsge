@@ -7,7 +7,7 @@ using '../../../main.bicep'
 param apim = {
   subscriptionId: '4b43f3e7-891b-4993-a2a2-ef99978c1bc9'
   resourceGroupName: 'rg-ai-landing-zone'
-  name: 'apim-rfp01l3nqbka6rod5a'
+  name: 'apim-premv2-rfp01l3nqbka6rod5a'
 }
 
 param keyVault = {
